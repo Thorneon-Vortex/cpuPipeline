@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="31" delta="old" >"D:\verilogFile\cpuPipeline\mips.v" Line 38: &lt;<arg fmt="%s" index="1">d_controller_j</arg>&gt; is already declared.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="770" delta="old" >"D:\verilogFile\cpuPipeline\mips.v" Line 38: Second declaration of <arg fmt="%s" index="1">d_controller_j</arg> ignored
+</msg>
+
+</messages>
+

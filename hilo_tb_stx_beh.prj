@@ -1,0 +1,3 @@
+verilog isim_temp "E_HILO.v"
+verilog isim_temp "hilo_tb.v"
+verilog isim_temp "D:/success/14.7/ISE_DS/ISE//verilog/src/glbl.v"

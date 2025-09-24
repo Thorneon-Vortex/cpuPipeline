@@ -1,0 +1,58 @@
+Running: D:\verilog\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -nodebug -prj mips.prj -o mips.exe generated_mips_test 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 16
+Turning on mult-threading, number of parallel sub-compilation jobs: 32 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:\verilogFile\cpuPipeline/ALU_tb.v" into library work
+Analyzing Verilog file "D:\verilogFile\cpuPipeline/cmp_tb.v" into library work
+Analyzing Verilog file "D:\verilogFile\cpuPipeline/CONTROLLER.v" into library work
+Analyzing Verilog file "D:\verilogFile\cpuPipeline/DE_REG.v" into library work
+Analyzing Verilog file "D:\verilogFile\cpuPipeline/DM_EXT.v" into library work
+Analyzing Verilog file "D:\verilogFile\cpuPipeline/DM_EXT_tb.v" into library work
+Analyzing Verilog file "D:\verilogFile\cpuPipeline/D_CMP.v" into library work
+Analyzing Verilog file "D:\verilogFile\cpuPipeline/D_EXT.v" into library work
+Analyzing Verilog file "D:\verilogFile\cpuPipeline/D_GRF.v" into library work
+Analyzing Verilog file "D:\verilogFile\cpuPipeline/D_JUMP.v" into library work
+Analyzing Verilog file "D:\verilogFile\cpuPipeline/D_NPC.v" into library work
+Analyzing Verilog file "D:\verilogFile\cpuPipeline/D_STALL.v" into library work
+Analyzing Verilog file "D:\verilogFile\cpuPipeline/d_stall_tb.v" into library work
+Analyzing Verilog file "D:\verilogFile\cpuPipeline/EM_REG.v" into library work
+Analyzing Verilog file "D:\verilogFile\cpuPipeline/E_ALU.v" into library work
+Analyzing Verilog file "D:\verilogFile\cpuPipeline/E_HILO.v" into library work
+Analyzing Verilog file "D:\verilogFile\cpuPipeline/FD_REG.v" into library work
+Analyzing Verilog file "D:\verilogFile\cpuPipeline/F_IFU.v" into library work
+Analyzing Verilog file "D:\verilogFile\cpuPipeline/generated_mips_test.v" into library work
+Analyzing Verilog file "D:\verilogFile\cpuPipeline/hilo_tb.v" into library work
+Analyzing Verilog file "D:\verilogFile\cpuPipeline/ifu_tb.v" into library work
+Analyzing Verilog file "D:\verilogFile\cpuPipeline/mips.v" into library work
+Analyzing Verilog file "D:\verilogFile\cpuPipeline/mips_tb.v" into library work
+Analyzing Verilog file "D:\verilogFile\cpuPipeline/MW_REG.v" into library work
+Analyzing Verilog file "D:\verilogFile\cpuPipeline/M_DM.v" into library work
+Analyzing Verilog file "D:\verilogFile\cpuPipeline/stall_tb.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "D:\verilogFile\cpuPipeline/mips.v" Line 261: Port RegWrite is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:\verilogFile\cpuPipeline/mips.v" Line 512: Port Branch is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:\verilogFile\cpuPipeline/mips.v" Line 637: Port ALUSrc is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:\verilogFile\cpuPipeline/mips.v" Line 750: Port ALUSrc is not connected to this instance
+Completed static elaboration
+Compiling module FD_REG
+Compiling module CONTROLLER
+Compiling module D_GRF
+Compiling module D_CMP
+Compiling module D_EXT
+Compiling module D_JUMP
+Compiling module D_NPC
+Compiling module D_STALL
+Compiling module DE_REG
+Compiling module E_HILO
+Compiling module E_ALU
+Compiling module EM_REG
+Compiling module DM_EXT
+Compiling module MW_REG
+Compiling module mips
+Compiling module generated_mips_test
+Time Resolution for simulation is 1ps.
+Compiled 16 Verilog Units
+Built simulation executable mips.exe
+Fuse Memory Usage: 34096 KB
+Fuse CPU Usage: 187 ms
